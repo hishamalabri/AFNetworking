@@ -181,6 +181,7 @@
 		2D4563911DB117A200AE4812 /* AFXMLParserResponseSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D45638F1DB1179D00AE4812 /* AFXMLParserResponseSerializerTests.m */; };
 		2D4563921DB117A200AE4812 /* AFXMLParserResponseSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D45638F1DB1179D00AE4812 /* AFXMLParserResponseSerializerTests.m */; };
 		2D4563941DB11DDB00AE4812 /* AFXMLDocumentResponseSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4563931DB11DDB00AE4812 /* AFXMLDocumentResponseSerializerTests.m */; };
+		4800220C77A64B7468C7942E /* libPods-AFNetworking iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3383CB53626C7AE0655DDC /* libPods-AFNetworking iOS.a */; };
 		5F4323BB1BF63741003B8749 /* Equifax_Secure_Certificate_Authority_Root.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5F4323B31BF63741003B8749 /* Equifax_Secure_Certificate_Authority_Root.cer */; };
 		5F4323BC1BF63741003B8749 /* Equifax_Secure_Certificate_Authority_Root.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5F4323B31BF63741003B8749 /* Equifax_Secure_Certificate_Authority_Root.cer */; };
 		5F4323BD1BF63741003B8749 /* Equifax_Secure_Certificate_Authority_Root.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5F4323B31BF63741003B8749 /* Equifax_Secure_Certificate_Authority_Root.cer */; };
@@ -202,9 +203,23 @@
 		5F4323DD1BF63CCC003B8749 /* GeoTrust_Global_CA_Root.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5F4323DC1BF63CCC003B8749 /* GeoTrust_Global_CA_Root.cer */; };
 		5F4323DE1BF63CCC003B8749 /* GeoTrust_Global_CA_Root.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5F4323DC1BF63CCC003B8749 /* GeoTrust_Global_CA_Root.cer */; };
 		5F4323DF1BF63CCC003B8749 /* GeoTrust_Global_CA_Root.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5F4323DC1BF63CCC003B8749 /* GeoTrust_Global_CA_Root.cer */; };
+		6CBFD814170B6B8ACE7FDFC8 /* libPods-AFNetworking iOS Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CE9A239A25CCC4449C5647 /* libPods-AFNetworking iOS Tests.a */; };
+		B967539B226B0573177F2838 /* libPods-AFNetworking macOS Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 073730032EEFDA703C084EF1 /* libPods-AFNetworking macOS Tests.a */; };
+		E22CA60C2727A1C1D4AEB24B /* libPods-AFNetworking macOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD7955B90CE3915F32DA2A7 /* libPods-AFNetworking macOS.a */; };
 		E91164651DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E91164641DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m */; };
 		E91164661DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E91164641DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m */; };
 		E91164671DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E91164641DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m */; };
+		ED1A28EF228B9E8200C011BE /* AFURLSessionLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = ED1A28ED228B9E8200C011BE /* AFURLSessionLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED1A28F0228B9E8200C011BE /* AFURLSessionLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = ED1A28ED228B9E8200C011BE /* AFURLSessionLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED1A28F1228B9E8200C011BE /* AFURLSessionLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = ED1A28ED228B9E8200C011BE /* AFURLSessionLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED1A28F2228B9E8200C011BE /* AFURLSessionLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = ED1A28ED228B9E8200C011BE /* AFURLSessionLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED1A28F3228B9E8200C011BE /* AFURLSessionLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1A28EE228B9E8200C011BE /* AFURLSessionLogger.m */; };
+		ED1A28F4228B9E8200C011BE /* AFURLSessionLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1A28EE228B9E8200C011BE /* AFURLSessionLogger.m */; };
+		ED1A28F5228B9E8200C011BE /* AFURLSessionLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1A28EE228B9E8200C011BE /* AFURLSessionLogger.m */; };
+		ED1A28F6228B9E8200C011BE /* AFURLSessionLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1A28EE228B9E8200C011BE /* AFURLSessionLogger.m */; };
+		EFD41DB358920DC6B8A8149B /* libPods-AFNetworking watchOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9AE3638F5FCF5697120F91 /* libPods-AFNetworking watchOS.a */; };
+		FC42705E2F4431CD9A9344A8 /* libPods-AFNetworking tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0562F06192F25DCEF9CCD9 /* libPods-AFNetworking tvOS.a */; };
+		FFF062DB2A2452BDF1A4CF43 /* libPods-AFNetworking tvOS Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A70C6E51D309EB073C18B63 /* libPods-AFNetworking tvOS Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -232,6 +247,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		073730032EEFDA703C084EF1 /* libPods-AFNetworking macOS Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworking macOS Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CD94910DC162A6888127B08 /* Pods-AFNetworking macOS Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking macOS Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking macOS Tests/Pods-AFNetworking macOS Tests.release.xcconfig"; sourceTree = "<group>"; };
+		10E1CD4801811E19716A6EF2 /* Pods-AFNetworking tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking tvOS/Pods-AFNetworking tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		1BF9F95F1C87832B00F1F35A /* AFImageResponseSerializerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageResponseSerializerTests.m; sourceTree = "<group>"; };
 		1F083A4920364648004D80C7 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		1F6F7DF51F1703A100C979D0 /* Let's Encrypt Authority X3.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Let's Encrypt Authority X3.cer"; sourceTree = "<group>"; };
@@ -308,6 +326,10 @@
 		29F5EF021C47E64F008B976A /* AFUIWebViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFUIWebViewTests.m; sourceTree = "<group>"; };
 		2D45638F1DB1179D00AE4812 /* AFXMLParserResponseSerializerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLParserResponseSerializerTests.m; sourceTree = "<group>"; };
 		2D4563931DB11DDB00AE4812 /* AFXMLDocumentResponseSerializerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLDocumentResponseSerializerTests.m; sourceTree = "<group>"; };
+		4881EF8D64B35D6153CCCFE1 /* Pods-AFNetworking macOS Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking macOS Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking macOS Tests/Pods-AFNetworking macOS Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A70C6E51D309EB073C18B63 /* libPods-AFNetworking tvOS Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworking tvOS Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0562F06192F25DCEF9CCD9 /* libPods-AFNetworking tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworking tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD7955B90CE3915F32DA2A7 /* libPods-AFNetworking macOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworking macOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F4323B31BF63741003B8749 /* Equifax_Secure_Certificate_Authority_Root.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = Equifax_Secure_Certificate_Authority_Root.cer; sourceTree = "<group>"; };
 		5F4323B41BF63741003B8749 /* GeoTrust_Global_CA-cross.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GeoTrust_Global_CA-cross.cer"; sourceTree = "<group>"; };
 		5F4323B51BF63741003B8749 /* google.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = google.com.cer; sourceTree = "<group>"; };
@@ -315,7 +337,23 @@
 		5F4323D41BF63CB0003B8749 /* GoogleComServerTrustChainPath1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GoogleComServerTrustChainPath1; sourceTree = "<group>"; };
 		5F4323D81BF63CBA003B8749 /* GoogleComServerTrustChainPath2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GoogleComServerTrustChainPath2; sourceTree = "<group>"; };
 		5F4323DC1BF63CCC003B8749 /* GeoTrust_Global_CA_Root.cer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GeoTrust_Global_CA_Root.cer; sourceTree = "<group>"; };
+		75ABDCA0EF86EDC152FF5945 /* Pods-AFNetworking tvOS Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking tvOS Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking tvOS Tests/Pods-AFNetworking tvOS Tests.release.xcconfig"; sourceTree = "<group>"; };
+		825CB71520C6A78B73644483 /* Pods-AFNetworking tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking tvOS/Pods-AFNetworking tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		83A27B5BB40ECCAC1EFCF91A /* Pods-AFNetworking iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking iOS/Pods-AFNetworking iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		8A76CB8ECA43F75F258DE601 /* Pods-AFNetworking macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking macOS/Pods-AFNetworking macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9A72DD9ABF65F3FF293C2FCC /* Pods-AFNetworking iOS Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking iOS Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking iOS Tests/Pods-AFNetworking iOS Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9C3383CB53626C7AE0655DDC /* libPods-AFNetworking iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworking iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD668BA72A50F78A7A43376 /* Pods-AFNetworking tvOS Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking tvOS Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking tvOS Tests/Pods-AFNetworking tvOS Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1B387AC1EAA7CEF0D163A2F /* Pods-AFNetworking macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking macOS/Pods-AFNetworking macOS.release.xcconfig"; sourceTree = "<group>"; };
+		CC5EE66610AB17D6F3A09C1B /* Pods-AFNetworking iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking iOS/Pods-AFNetworking iOS.release.xcconfig"; sourceTree = "<group>"; };
+		D0CE9A239A25CCC4449C5647 /* libPods-AFNetworking iOS Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworking iOS Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1A08C719C2B69400481653A /* Pods-AFNetworking watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking watchOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking watchOS/Pods-AFNetworking watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		DE9AE3638F5FCF5697120F91 /* libPods-AFNetworking watchOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworking watchOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4BB02FEB6AE5F5AD23ED22C /* Pods-AFNetworking iOS Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking iOS Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking iOS Tests/Pods-AFNetworking iOS Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E91164641DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestSerializerTests.m; sourceTree = "<group>"; };
+		ED1A28ED228B9E8200C011BE /* AFURLSessionLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLSessionLogger.h; sourceTree = "<group>"; };
+		ED1A28EE228B9E8200C011BE /* AFURLSessionLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionLogger.m; sourceTree = "<group>"; };
+		EE94BFF4A1498511A9839FF4 /* Pods-AFNetworking watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking watchOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking watchOS/Pods-AFNetworking watchOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -323,6 +361,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC42705E2F4431CD9A9344A8 /* libPods-AFNetworking tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2987B0AF1BC408A200179A4C /* AFNetworking.framework in Frameworks */,
+				FFF062DB2A2452BDF1A4CF43 /* libPods-AFNetworking tvOS Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				297824AB1BC2DB060041C395 /* AFNetworking.framework in Frameworks */,
+				6CBFD814170B6B8ACE7FDFC8 /* libPods-AFNetworking iOS Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				298D7C4F1BC2C7B200FD3B3E /* AFNetworking.framework in Frameworks */,
+				B967539B226B0573177F2838 /* libPods-AFNetworking macOS Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +396,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4800220C77A64B7468C7942E /* libPods-AFNetworking iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +404,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFD41DB358920DC6B8A8149B /* libPods-AFNetworking watchOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +412,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E22CA60C2727A1C1D4AEB24B /* libPods-AFNetworking macOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +526,8 @@
 				2995223B1BBF104D00859F49 /* Supporting Files */,
 				298D7C561BC2C88F00FD3B3E /* Tests */,
 				2995223A1BBF104D00859F49 /* Products */,
+				F888C63B2B812CB1EFF2FAE0 /* Pods */,
+				AD89A339FF2883893041F632 /* Frameworks */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -527,6 +574,8 @@
 				299522501BBF125A00859F49 /* AFURLResponseSerialization.m */,
 				299522511BBF125A00859F49 /* AFURLSessionManager.h */,
 				299522521BBF125A00859F49 /* AFURLSessionManager.m */,
+				ED1A28ED228B9E8200C011BE /* AFURLSessionLogger.h */,
+				ED1A28EE228B9E8200C011BE /* AFURLSessionLogger.m */,
 			);
 			path = AFNetworking;
 			sourceTree = "<group>";
@@ -572,6 +621,41 @@
 			path = Google.com;
 			sourceTree = "<group>";
 		};
+		AD89A339FF2883893041F632 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C3383CB53626C7AE0655DDC /* libPods-AFNetworking iOS.a */,
+				D0CE9A239A25CCC4449C5647 /* libPods-AFNetworking iOS Tests.a */,
+				5CD7955B90CE3915F32DA2A7 /* libPods-AFNetworking macOS.a */,
+				073730032EEFDA703C084EF1 /* libPods-AFNetworking macOS Tests.a */,
+				5A0562F06192F25DCEF9CCD9 /* libPods-AFNetworking tvOS.a */,
+				4A70C6E51D309EB073C18B63 /* libPods-AFNetworking tvOS Tests.a */,
+				DE9AE3638F5FCF5697120F91 /* libPods-AFNetworking watchOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F888C63B2B812CB1EFF2FAE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83A27B5BB40ECCAC1EFCF91A /* Pods-AFNetworking iOS.debug.xcconfig */,
+				CC5EE66610AB17D6F3A09C1B /* Pods-AFNetworking iOS.release.xcconfig */,
+				E4BB02FEB6AE5F5AD23ED22C /* Pods-AFNetworking iOS Tests.debug.xcconfig */,
+				9A72DD9ABF65F3FF293C2FCC /* Pods-AFNetworking iOS Tests.release.xcconfig */,
+				8A76CB8ECA43F75F258DE601 /* Pods-AFNetworking macOS.debug.xcconfig */,
+				C1B387AC1EAA7CEF0D163A2F /* Pods-AFNetworking macOS.release.xcconfig */,
+				4881EF8D64B35D6153CCCFE1 /* Pods-AFNetworking macOS Tests.debug.xcconfig */,
+				0CD94910DC162A6888127B08 /* Pods-AFNetworking macOS Tests.release.xcconfig */,
+				825CB71520C6A78B73644483 /* Pods-AFNetworking tvOS.debug.xcconfig */,
+				10E1CD4801811E19716A6EF2 /* Pods-AFNetworking tvOS.release.xcconfig */,
+				AAD668BA72A50F78A7A43376 /* Pods-AFNetworking tvOS Tests.debug.xcconfig */,
+				75ABDCA0EF86EDC152FF5945 /* Pods-AFNetworking tvOS Tests.release.xcconfig */,
+				D1A08C719C2B69400481653A /* Pods-AFNetworking watchOS.debug.xcconfig */,
+				EE94BFF4A1498511A9839FF4 /* Pods-AFNetworking watchOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -587,6 +671,7 @@
 				29D96E8D1BCC3D7D00F571A5 /* AFURLSessionManager.h in Headers */,
 				29D96E941BCC406B00F571A5 /* AFAutoPurgingImageCache.h in Headers */,
 				29D96E951BCC406B00F571A5 /* AFImageDownloader.h in Headers */,
+				ED1A28F2228B9E8200C011BE /* AFURLSessionLogger.h in Headers */,
 				1F96D2A7203649580085FC3F /* AFCompatibilityMacros.h in Headers */,
 				29D96E961BCC406B00F571A5 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
 				29D96E971BCC406B00F571A5 /* UIButton+AFNetworking.h in Headers */,
@@ -618,6 +703,7 @@
 				299522AC1BBF13C700859F49 /* UIProgressView+AFNetworking.h in Headers */,
 				299522A61BBF13C700859F49 /* UIButton+AFNetworking.h in Headers */,
 				299522A01BBF13C700859F49 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				ED1A28EF228B9E8200C011BE /* AFURLSessionLogger.h in Headers */,
 				299522AE1BBF13C700859F49 /* UIRefreshControl+AFNetworking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -626,6 +712,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1A28F0228B9E8200C011BE /* AFURLSessionLogger.h in Headers */,
 				29D96E7A1BCC3D6000F571A5 /* AFHTTPSessionManager.h in Headers */,
 				29D96E7C1BCC3D6000F571A5 /* AFSecurityPolicy.h in Headers */,
 				1F96D2A5203649570085FC3F /* AFCompatibilityMacros.h in Headers */,
@@ -644,6 +731,7 @@
 				29D96E821BCC3D7200F571A5 /* AFNetworkReachabilityManager.h in Headers */,
 				29D96E831BCC3D7200F571A5 /* AFSecurityPolicy.h in Headers */,
 				1F96D2A6203649570085FC3F /* AFCompatibilityMacros.h in Headers */,
+				ED1A28F1228B9E8200C011BE /* AFURLSessionLogger.h in Headers */,
 				29D96E841BCC3D7200F571A5 /* AFURLRequestSerialization.h in Headers */,
 				29D96E851BCC3D7200F571A5 /* AFURLResponseSerialization.h in Headers */,
 				29D96E861BCC3D7200F571A5 /* AFURLSessionManager.h in Headers */,
@@ -658,6 +746,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2987B0BA1BC408A200179A4C /* Build configuration list for PBXNativeTarget "AFNetworking tvOS" */;
 			buildPhases = (
+				39197614E24F74CC68999717 /* [CP] Check Pods Manifest.lock */,
 				2987B0A01BC408A200179A4C /* Sources */,
 				2987B0A11BC408A200179A4C /* Frameworks */,
 				2987B0A21BC408A200179A4C /* Headers */,
@@ -676,6 +765,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2987B0BB1BC408A200179A4C /* Build configuration list for PBXNativeTarget "AFNetworking tvOS Tests" */;
 			buildPhases = (
+				D3A6E72E79DF3AC3FBEF0FDB /* [CP] Check Pods Manifest.lock */,
 				2987B0AA1BC408A200179A4C /* Sources */,
 				2987B0AB1BC408A200179A4C /* Frameworks */,
 				2987B0AC1BC408A200179A4C /* Resources */,
@@ -694,6 +784,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 298D7C451BC2C79600FD3B3E /* Build configuration list for PBXNativeTarget "AFNetworking iOS Tests" */;
 			buildPhases = (
+				2D9D553A57D713211B682F0F /* [CP] Check Pods Manifest.lock */,
 				298D7C371BC2C79500FD3B3E /* Sources */,
 				298D7C381BC2C79500FD3B3E /* Frameworks */,
 				298D7C391BC2C79500FD3B3E /* Resources */,
@@ -712,6 +803,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 298D7C521BC2C7B200FD3B3E /* Build configuration list for PBXNativeTarget "AFNetworking macOS Tests" */;
 			buildPhases = (
+				28A17D6436F9C6935A5276ED /* [CP] Check Pods Manifest.lock */,
 				298D7C461BC2C7B200FD3B3E /* Sources */,
 				298D7C471BC2C7B200FD3B3E /* Frameworks */,
 				298D7C481BC2C7B200FD3B3E /* Resources */,
@@ -730,6 +822,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 299522411BBF104D00859F49 /* Build configuration list for PBXNativeTarget "AFNetworking iOS" */;
 			buildPhases = (
+				F471819356534BB7A1AA4FCC /* [CP] Check Pods Manifest.lock */,
 				299522341BBF104D00859F49 /* Sources */,
 				299522351BBF104D00859F49 /* Frameworks */,
 				299522361BBF104D00859F49 /* Headers */,
@@ -748,6 +841,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2995226A1BBF129200859F49 /* Build configuration list for PBXNativeTarget "AFNetworking watchOS" */;
 			buildPhases = (
+				4C1E767CBCF1E2425E1C272D /* [CP] Check Pods Manifest.lock */,
 				299522601BBF129200859F49 /* Sources */,
 				299522611BBF129200859F49 /* Frameworks */,
 				299522621BBF129200859F49 /* Headers */,
@@ -766,6 +860,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2995227C1BBF136400859F49 /* Build configuration list for PBXNativeTarget "AFNetworking macOS" */;
 			buildPhases = (
+				5C5BCB3B1DC95333A70BDF39 /* [CP] Check Pods Manifest.lock */,
 				299522721BBF136400859F49 /* Sources */,
 				299522731BBF136400859F49 /* Frameworks */,
 				299522741BBF136400859F49 /* Headers */,
@@ -819,6 +914,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 2995222F1BBF104D00859F49;
@@ -946,6 +1042,163 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28A17D6436F9C6935A5276ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFNetworking macOS Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D9D553A57D713211B682F0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFNetworking iOS Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39197614E24F74CC68999717 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFNetworking tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C1E767CBCF1E2425E1C272D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFNetworking watchOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C5BCB3B1DC95333A70BDF39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFNetworking macOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3A6E72E79DF3AC3FBEF0FDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFNetworking tvOS Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F471819356534BB7A1AA4FCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFNetworking iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2987B0A01BC408A200179A4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -963,6 +1216,7 @@
 				2987B0C01BC408D900179A4C /* AFURLResponseSerialization.m in Sources */,
 				2987B0C61BC408F900179A4C /* UIImageView+AFNetworking.m in Sources */,
 				2987B0C31BC408F900179A4C /* AFImageDownloader.m in Sources */,
+				ED1A28F6228B9E8200C011BE /* AFURLSessionLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1056,6 +1310,7 @@
 				2995229D1BBF13C700859F49 /* AFAutoPurgingImageCache.m in Sources */,
 				299522A31BBF13C700859F49 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				2995225D1BBF125A00859F49 /* AFURLResponseSerialization.m in Sources */,
+				ED1A28F3228B9E8200C011BE /* AFURLSessionLogger.m in Sources */,
 				2995229F1BBF13C700859F49 /* AFImageDownloader.m in Sources */,
 				299522A11BBF13C700859F49 /* AFNetworkActivityIndicatorManager.m in Sources */,
 			);
@@ -1070,6 +1325,7 @@
 				2995226E1BBF133400859F49 /* AFSecurityPolicy.m in Sources */,
 				299522701BBF133400859F49 /* AFURLResponseSerialization.m in Sources */,
 				2995226D1BBF133400859F49 /* AFHTTPSessionManager.m in Sources */,
+				ED1A28F4228B9E8200C011BE /* AFURLSessionLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1082,6 +1338,7 @@
 				2995227F1BBF13A100859F49 /* AFHTTPSessionManager.m in Sources */,
 				299522841BBF13A100859F49 /* AFURLSessionManager.m in Sources */,
 				299522821BBF13A100859F49 /* AFURLRequestSerialization.m in Sources */,
+				ED1A28F5228B9E8200C011BE /* AFURLSessionLogger.m in Sources */,
 				299522831BBF13A100859F49 /* AFURLResponseSerialization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1109,6 +1366,7 @@
 /* Begin XCBuildConfiguration section */
 		2987B0B61BC408A200179A4C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 825CB71520C6A78B73644483 /* Pods-AFNetworking tvOS.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = marker;
@@ -1134,6 +1392,7 @@
 		};
 		2987B0B71BC408A200179A4C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10E1CD4801811E19716A6EF2 /* Pods-AFNetworking tvOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = bitcode;
@@ -1159,6 +1418,7 @@
 		};
 		2987B0B81BC408A200179A4C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAD668BA72A50F78A7A43376 /* Pods-AFNetworking tvOS Tests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1174,6 +1434,7 @@
 		};
 		2987B0B91BC408A200179A4C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75ABDCA0EF86EDC152FF5945 /* Pods-AFNetworking tvOS Tests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1189,6 +1450,7 @@
 		};
 		298D7C431BC2C79500FD3B3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4BB02FEB6AE5F5AD23ED22C /* Pods-AFNetworking iOS Tests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1204,6 +1466,7 @@
 		};
 		298D7C441BC2C79500FD3B3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A72DD9ABF65F3FF293C2FCC /* Pods-AFNetworking iOS Tests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1219,6 +1482,7 @@
 		};
 		298D7C531BC2C7B200FD3B3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4881EF8D64B35D6153CCCFE1 /* Pods-AFNetworking macOS Tests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1235,6 +1499,7 @@
 		};
 		298D7C541BC2C7B200FD3B3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CD94910DC162A6888127B08 /* Pods-AFNetworking macOS Tests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1407,6 +1672,7 @@
 		};
 		299522421BBF104D00859F49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83A27B5BB40ECCAC1EFCF91A /* Pods-AFNetworking iOS.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = marker;
@@ -1430,6 +1696,7 @@
 		};
 		299522431BBF104D00859F49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC5EE66610AB17D6F3A09C1B /* Pods-AFNetworking iOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = bitcode;
@@ -1453,6 +1720,7 @@
 		};
 		2995226B1BBF129200859F49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1A08C719C2B69400481653A /* Pods-AFNetworking watchOS.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = marker;
@@ -1477,6 +1745,7 @@
 		};
 		2995226C1BBF129200859F49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE94BFF4A1498511A9839FF4 /* Pods-AFNetworking watchOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = bitcode;
@@ -1501,6 +1770,7 @@
 		};
 		2995227D1BBF136400859F49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A76CB8ECA43F75F258DE601 /* Pods-AFNetworking macOS.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = marker;
@@ -1528,6 +1798,7 @@
 		};
 		2995227E1BBF136400859F49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1B387AC1EAA7CEF0D163A2F /* Pods-AFNetworking macOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = bitcode;

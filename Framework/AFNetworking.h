@@ -45,6 +45,7 @@ FOUNDATION_EXPORT const unsigned char AFNetworkingVersionString[];
 #endif
 
 #import <AFNetworking/AFURLSessionManager.h>
+#import <AFNetworking/AFURLSessionLogger.h>
 #import <AFNetworking/AFHTTPSessionManager.h>
 
 #if TARGET_OS_IOS || TARGET_OS_TV

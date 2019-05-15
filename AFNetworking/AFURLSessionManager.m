@@ -20,6 +20,7 @@
 // THE SOFTWARE.
 
 #import "AFURLSessionManager.h"
+#import "AFURLSessionLogger.h"
 #import <objc/runtime.h>
 
 #ifndef NSFoundationVersionNumber_iOS_8_0
@@ -233,6 +234,7 @@ didCompleteWithError:(NSError *)error
 
     if (error) {
         userInfo[AFNetworkingTaskDidCompleteErrorKey] = error;
+        [AFURLSessionLogger logRequestComplete:task session:session responseBody:userInfo[AFNetworkingTaskDidCompleteResponseDataKey] error:userInfo[AFNetworkingTaskDidCompleteErrorKey]];
 
         dispatch_group_async(manager.completionGroup ?: url_session_manager_completion_group(), manager.completionQueue ?: dispatch_get_main_queue(), ^{
             if (self.completionHandler) {
@@ -259,6 +261,8 @@ didCompleteWithError:(NSError *)error
             if (serializationError) {
                 userInfo[AFNetworkingTaskDidCompleteErrorKey] = serializationError;
             }
+
+            [AFURLSessionLogger logRequestComplete:task session:session responseBody:userInfo[AFNetworkingTaskDidCompleteResponseDataKey] error:userInfo[AFNetworkingTaskDidCompleteErrorKey]];
 
             dispatch_group_async(manager.completionGroup ?: url_session_manager_completion_group(), manager.completionQueue ?: dispatch_get_main_queue(), ^{
                 if (self.completionHandler) {
@@ -778,7 +782,7 @@ static NSString * const AFNSURLSessionTaskDidSuspendNotification = @"com.alamofi
     });
 
     [self addDelegateForDataTask:dataTask uploadProgress:uploadProgressBlock downloadProgress:downloadProgressBlock completionHandler:completionHandler];
-
+    [AFURLSessionLogger logRequestStarted:dataTask session:self.session];
     return dataTask;
 }
 
@@ -806,7 +810,7 @@ static NSString * const AFNSURLSessionTaskDidSuspendNotification = @"com.alamofi
                               progress:uploadProgressBlock
                      completionHandler:completionHandler];
     }
-
+    [AFURLSessionLogger logRequestStarted:uploadTask session:self.session];
     return uploadTask;
 }
 
@@ -821,7 +825,7 @@ static NSString * const AFNSURLSessionTaskDidSuspendNotification = @"com.alamofi
     });
 
     [self addDelegateForUploadTask:uploadTask progress:uploadProgressBlock completionHandler:completionHandler];
-
+    [AFURLSessionLogger logRequestStarted:uploadTask session:self.session];
     return uploadTask;
 }
 
@@ -835,7 +839,7 @@ static NSString * const AFNSURLSessionTaskDidSuspendNotification = @"com.alamofi
     });
 
     [self addDelegateForUploadTask:uploadTask progress:uploadProgressBlock completionHandler:completionHandler];
-
+    [AFURLSessionLogger logRequestStarted:uploadTask session:self.session];
     return uploadTask;
 }
 
@@ -852,7 +856,7 @@ static NSString * const AFNSURLSessionTaskDidSuspendNotification = @"com.alamofi
     });
 
     [self addDelegateForDownloadTask:downloadTask progress:downloadProgressBlock destination:destination completionHandler:completionHandler];
-
+    [AFURLSessionLogger logRequestStarted:downloadTask session:self.session];
     return downloadTask;
 }
 
@@ -867,7 +871,7 @@ static NSString * const AFNSURLSessionTaskDidSuspendNotification = @"com.alamofi
     });
 
     [self addDelegateForDownloadTask:downloadTask progress:downloadProgressBlock destination:destination completionHandler:completionHandler];
-
+    [AFURLSessionLogger logRequestStarted:downloadTask session:self.session];
     return downloadTask;
 }
 
