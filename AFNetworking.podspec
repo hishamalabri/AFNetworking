@@ -66,8 +66,8 @@ EOS
     ss.tvos.dependency 'AFNetworking/Reachability'
     ss.dependency 'AFNetworking/Security'
 
-    ss.source_files = 'AFNetworking/AF{URL,HTTP}SessionManager.{h,m}', 'AFNetworking/AFCompatibilityMacros.h'
-    ss.public_header_files = 'AFNetworking/AF{URL,HTTP}SessionManager.h', 'AFNetworking/AFCompatibilityMacros.h'
+    ss.source_files = 'AFNetworking/AF{URL,HTTP}SessionManager.{h,m}', 'AFNetworking/AFCompatibilityMacros.h', 'AFURLSessionLogger.{h,m}'
+    ss.public_header_files = 'AFNetworking/AF{URL,HTTP}SessionManager.h', 'AFNetworking/AFCompatibilityMacros.h', 'AFURLSessionLogger.h'
   end
 
   s.subspec 'UIKit' do |ss|
